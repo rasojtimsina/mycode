@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-num1 = int(input ("Enter first number: \n"))
-num2 = int(input ("Enter second number: \n"))
-num3 = int(input ("Enter third number: \n"))
+a = int(input ("Enter first number: \n"))
+b = int(input ("Enter second number: \n"))
+c = int(input ("Enter third number: \n"))
 def max(a,b,c):
     maximum=a
     if b>a:
@@ -11,7 +11,7 @@ def max(a,b,c):
             maximum=c
         else:
             if c>a:
-                max=c
+                maximum=c
         return maximum
 
 print(f"The max of {num1},{num2},{num3} is", max(a,b,c))
